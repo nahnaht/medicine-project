@@ -2,7 +2,7 @@ const fb = require("facebook-chat-api");
 const axios = require("axios");
 //asdfasdfa
 //aasdfas
-fb({email : "tuantsukuyomi@gmail.com",password:"tuanhoangg"},(err,api)=>{
+fb({email : "tuantsukuyomi@gmail.com",password:""},(err,api)=>{
     if (err) return console.error(err);
     
     api.listen((err, message) => {
